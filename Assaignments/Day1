@@ -1,1 +1,49 @@
-
+Write a Java program to check if a given number is positive, negative, or zero using if-else.
+Write a program to find the maximum between two numbers using if-else.
+Write a Java program to check if a given year is a leap year or not using if-else.
+Write a program to print all the even numbers between 1 and 100 using a for loop.
+Write a Java program to calculate the factorial of a number using a while loop.
+Write a program to print the Fibonacci series up to a given number using a for loop.
+Write a Java program to find the sum of all natural numbers from 1 to 100 using a while loop.
+Write a program to check if a number is prime or not using a for loop.
+Write a Java program to reverse a number using a while loop.
+Write a program to print the multiplication table of a given number using a for loop.
+Write a Java program to calculate the sum of all odd numbers between 1 and 50 using a do-while loop.
+Write a program to check if a given string is a palindrome or not using a for loop.
+Write a Java program to find the factorial of a number using recursion.
+Write a program to calculate the average of numbers in an array using a for loop.
+Write a Java program to find the largest element in an array using a while loop.
+Write a program to print the first n prime numbers using a for loop.
+Write a Java program to find the greatest common divisor (GCD) of two numbers using a while loop.
+Write a program to calculate the power of a number using a for loop.
+Write a Java program to find the sum of digits of a number using a do-while loop.
+Write a program to check if a number is Armstrong or not using a for loop.
+Write a Java program to find the second largest number in an array using a while loop.
+Write a program to calculate the square root of a number using a for loop.
+Write a Java program to convert decimal to binary using a while loop.
+Write a program to print the factors of a number using a for loop.
+Write a Java program to check if a given string is a palindrome or not using recursion.
+Write a program to find the sum of all even numbers between 1 and 100 using a while loop.
+Write a Java program to count the number of vowels in a string using a for loop.
+Write a program to check if a number is a perfect number or not using a for loop.
+Write a Java program to check if a given number is a prime number or not using recursion.
+Write a program to reverse an array using a while loop.
+Write a Java program to find the sum of all digits of a number using a for loop.
+Write a program to find the factorial of a number using a do-while loop.
+Write a Java program to check if a number is a palindrome or not using a while loop.
+Write a program to check if a number is a strong number or not using a for loop.
+Write a Java program to find the least common multiple (LCM) of two numbers using recursion.
+Write a program to print the prime factors of a number using a while loop.
+Write a Java program to check if a given string is a palindrome or not using a while loop
+Write a Java program to find the sum of all even numbers in an array using a while loop.
+Write a program to check if a number is a perfect square or not using if-else.
+Write a Java program to find the third largest number in an array using a for loop.
+Write a program to calculate the factorial of a number using if-else.
+Write a Java program to check if a given string is a palindrome or not using a switch statement.
+Write a program to find the sum of all multiples of 3 and 5 between 1 and 100 using a for loop.
+Write a Java program to find the smallest element in an array using a while loop.
+Write a program to check if a number is a prime palindrome or not using if-else.
+Write a Java program to find the sum of the digits in a string using a for loop.
+Write a program to calculate the average of numbers in an array using if-else.
+Write a Java program to check if a given number is a palindrome or not using a switch statement.
+Write a program to check if a number is a happy number or not using a while loop.
