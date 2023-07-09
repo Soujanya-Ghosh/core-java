@@ -3,7 +3,7 @@ public class weekDay {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int dayNum = sc.nextInt();
-        traditionalSwitch(1);
+        traditionalSwitch(dayNum);
     }
 
     public static void traditionalSwitch(int dayNum) {

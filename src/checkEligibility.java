@@ -4,7 +4,7 @@ public class checkEligibility {
 
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
-        traditionalSwitch(1);
+        traditionalSwitch(age);
     }
 
     public static void traditionalSwitch(int age) {

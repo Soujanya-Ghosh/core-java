@@ -3,7 +3,7 @@ public class gradeCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        traditionalSwitch(1);
+        traditionalSwitch(number);
     }
 
     public static void traditionalSwitch(int number){
