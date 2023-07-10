@@ -1,6 +1,7 @@
 package inheritence2;
 
 public class SavingsAccount extends BankAccount {
+
     private float interestRate;
     public SavingsAccount(){}
 

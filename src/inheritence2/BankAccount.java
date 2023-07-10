@@ -25,15 +25,20 @@ public class BankAccount {
     public void setBankBalance(double bankBalance) {
         this.balance = bankBalance;
     }
-    public void deposit(){
-        System.out.println( "Deposit in the account");
+
+    public void deposit(double amount){
+
+        balance += amount;
     }
-    public void withdraw(){
-        System.out.println("Withdraw from the account");
+    public void withdraw( double amount){
+        if(amount <= balance ){
+            balance -= amount;
+        }else{
+            System.out.println("");
+        }
+
     }
-    public void getBalance(){
-        System.out.println("Get balance of the account");
-    }
+
     @Override
     public String toString() {
         return "BankAccount{" +
