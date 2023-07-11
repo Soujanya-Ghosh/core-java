@@ -19,7 +19,7 @@ public class CurrentAccount extends BankAccount{
 
     @Override
     public void withdraw(double amount) {
-        if(amount <= balance + overDraftLimit){
+        if(amount >= balance + overDraftLimit){
             System.out.println("out of limit");
         }else{
             balance = balance - amount;
