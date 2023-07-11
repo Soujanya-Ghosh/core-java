@@ -11,6 +11,8 @@ public class Prime_num {
             }
             } if(prime > 2){
             System.out.println("It is not prime");
+        }else if(num == 1){
+            System.out.println("Prime number must be greater than 1");
         }else{
             System.out.println("It is  prime");
         }
