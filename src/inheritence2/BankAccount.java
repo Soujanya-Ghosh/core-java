@@ -2,7 +2,7 @@ package inheritence2;
 
 public class BankAccount {
     private String accountNumber;
-    private double balance;
+     double balance;
     public BankAccount(){}
 
     public BankAccount(String accountNumber, double balance) {
@@ -34,7 +34,7 @@ public class BankAccount {
         if(amount <= balance ){
             balance -= amount;
         }else{
-            System.out.println("");
+            System.out.println("Balance insufficient");
         }
 
     }

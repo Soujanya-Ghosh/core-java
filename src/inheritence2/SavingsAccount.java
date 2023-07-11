@@ -1,20 +1,20 @@
 package inheritence2;
 
 public class SavingsAccount {
-    private float applyInterestRate;
+    private double applyInterestRate;
     private double balance;
     public SavingsAccount(){}
 
-    public SavingsAccount(float applyInterestRate, double balance) {
+    public SavingsAccount(double applyInterestRate, double balance) {
         this.applyInterestRate = applyInterestRate;
         this.balance = balance;
     }
 
-    public float getApplyInterestRate() {
+    public double getApplyInterestRate() {
         return applyInterestRate;
     }
 
-    public void setApplyInterestRate(float applyInterestRate) {
+    public void setApplyInterestRate(double applyInterestRate) {
         this.applyInterestRate = applyInterestRate;
     }
 
@@ -26,7 +26,7 @@ public class SavingsAccount {
         this.balance = balance;
     }
 public void applyInterestRate(){
-        float interestRate = (float) (balance * applyInterestRate);
+        double interestRate =  (balance * (applyInterestRate)/100);
 
 }
     @Override
