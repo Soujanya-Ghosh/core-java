@@ -4,12 +4,13 @@ public class Palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        int palindrome = 0;
-        for (int i = num; num > 0; ) {
+        int palindrome = num;
+        int i;
+        for (i = 0; num > 0; ) {
             i = i * 10 + num % 10;
             num = num / 10;
         }
-        if (num == palindrome) {
+        if (palindrome == i) {
             System.out.println("It is palindrome");
 
         } else {
