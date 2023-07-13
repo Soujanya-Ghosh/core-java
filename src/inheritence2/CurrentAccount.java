@@ -3,7 +3,7 @@ package inheritence2;
 public class CurrentAccount extends BankAccount{
     private double overDraftLimit;
     public CurrentAccount(){}
-
+public void CurrentAccount(){}
     public CurrentAccount(String accountNumber, double balance, double overDraftLimit) {
         super(accountNumber, balance);
         this.overDraftLimit = overDraftLimit;

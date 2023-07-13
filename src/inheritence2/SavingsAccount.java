@@ -1,21 +1,22 @@
 package inheritence2;
 
-public class SavingsAccount {
-    private double applyInterestRate;
+public class SavingsAccount extends BankAccount {
+    private double interestRate;
     private double balance;
     public SavingsAccount(){}
 
-    public SavingsAccount(double applyInterestRate, double balance) {
-        this.applyInterestRate = applyInterestRate;
+    public SavingsAccount(double interestRate, double balance) {
+        this.interestRate = interestRate;
         this.balance = balance;
     }
 
-    public double getApplyInterestRate() {
-        return applyInterestRate;
+
+    public double getInterestRate() {
+        return interestRate;
     }
 
-    public void setApplyInterestRate(double applyInterestRate) {
-        this.applyInterestRate = applyInterestRate;
+    public void setInterestRate(double interestRate) {
+        this.interestRate = interestRate;
     }
 
     public double getBalance() {
@@ -25,14 +26,15 @@ public class SavingsAccount {
     public void setBalance(double balance) {
         this.balance = balance;
     }
-public void applyInterestRate(){
-        double interestRate =  (balance * (applyInterestRate)/100);
+
+    public void applyInterest(){
+        double interest =  (balance * (interestRate)/100);
 
 }
     @Override
     public String toString() {
         return "SavingsAccount{" +
-                "applyInterestRate=" + applyInterestRate +
+                "applyInterestRate=" + interestRate +
                 ", balance=" + balance +
                 '}';
     }
