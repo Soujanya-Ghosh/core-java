@@ -9,6 +9,7 @@ public class Dog extends Animal{
         }
 
         public Dog(String earShape, String tailShape) {
+            System.out.println("This parameterised constructor is called");
             this.earShape = earShape;
             this.tailShape = tailShape;
         }
@@ -31,16 +32,16 @@ public class Dog extends Animal{
             this.tailShape = tailShape;
         }
 public void bark(){
-    System.out.println("This" + this.getType() + "barks");
+    System.out.println("This" + this. getType() + "barks");
 }
 public void run(){
-    System.out.println("this" + this.getType() + "runs");
+    System.out.println("This " + this. getType() + " runs");
 }
 public void walk(){
-    System.out.println("This" + this.getType()+ "walks");
+    System.out.println("This " + this. getType()+ " walks");
 }
 public void wagTail(){
-    System.out.println("This" + this.getType() + "wagtail");
+    System.out.println("This " + this. getType() + " wagtail");
 }
 
 

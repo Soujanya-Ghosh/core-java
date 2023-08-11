@@ -1,23 +1,15 @@
-package inheritence;
+package Complex_inheritance;
 
-public class Animal {
+public class Carnivora extends LandMammals{
+    private String size;
+    private String type;
+    private double weight;
+    public Carnivora(){}
 
-private String size;
-private String type;
-private double weight;
-public Animal (){}
 
-    public Animal(String size, String type, double weight) {
+    public Carnivora(String name, String type, String size, String type1, double weight) {
         this.size = size;
-        this.type = type;
-        this.weight = weight;
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
-    public void setWeight(double weight) {
+        this.type = type1;
         this.weight = weight;
     }
 
@@ -29,12 +21,22 @@ public Animal (){}
         this.size = size;
     }
 
+    @Override
     public String getType() {
         return type;
     }
 
+    @Override
     public void setType(String type) {
         this.type = type;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
     public void move(String speed){
         System.out.println("This " + this. type + " moves" + speed);
@@ -45,13 +47,10 @@ public Animal (){}
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "Carnivora{" +
                 "size='" + size + '\'' +
                 ", type='" + type + '\'' +
                 ", weight=" + weight +
                 '}';
     }
 }
-
-
-

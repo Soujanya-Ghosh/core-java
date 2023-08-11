@@ -26,10 +26,10 @@ public class Fish extends Animal{
         this.gills = gills;
     }
     public void moveMuscles(){
-        System.out.println("This" + this.getType() + "move muscles");
+        System.out.println("This " + this.getType() + "move muscles");
     }
     public void moveBackFins(){
-        System.out.println("This" + this.getType() + "move back fins");
+        System.out.println("This " + this.getType() + "move back fins");
     }
 
     @Override

@@ -5,7 +5,7 @@ public class SavingsAccount extends BankAccount {
     private double balance;
     public SavingsAccount(){}
 
-    public SavingsAccount(double interestRate, double balance) {
+    public SavingsAccount(int accountNumber,double interestRate, double balance) {
         this.interestRate = interestRate;
         this.balance = balance;
     }
@@ -29,11 +29,11 @@ public class SavingsAccount extends BankAccount {
 
     public void applyInterest(){
         double interest =  (balance * (interestRate)/100);
-
+deposit(interest);
 }
     @Override
     public String toString() {
-        return "SavingsAccount{" +
+        return super.getAccountNumber()+"SavingsAccount{" +
                 "applyInterestRate=" + interestRate +
                 ", balance=" + balance +
                 '}';

@@ -1,20 +1,20 @@
 package inheritence2;
 
 public class BankAccount {
-    private String accountNumber;
+    private int accountNumber;
      double balance;
     public BankAccount(){}
 
-    public BankAccount(String accountNumber, double balance) {
+    public BankAccount(int accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
 
-    public String getAccountNumber() {
+    public int getAccountNumber() {
         return accountNumber;
     }
 
-    public void setAccountNumber(String accountNumber) {
+    public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
 
