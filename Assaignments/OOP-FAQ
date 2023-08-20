@@ -1,0 +1,53 @@
+Encapsulation:
+
+What is encapsulation in Java, and how is it achieved?
+Explain the difference between public, private, protected, and default access modifiers.
+How do you enforce encapsulation and data hiding in Java classes?
+Describe the role of getters and setters in encapsulation.
+What is the purpose of making instance variables private in a class?
+Can you access private variables of a class from another class in Java?
+How do you ensure that an object's state remains consistent in a multithreaded environment using encapsulation?
+Provide an example of using encapsulation to protect sensitive data.
+What are the advantages of encapsulation in Java?
+How does encapsulation contribute to the principle of information hiding?
+Explain the importance of using the final keyword for variables in encapsulation.
+Discuss the relationship between encapsulation and immutability in Java.
+Can you achieve encapsulation without using access modifiers? Explain.
+How do you prevent subclassing and method overriding in Java encapsulation?
+Give an example of a Java class demonstrating encapsulation.
+
+Inheritance:
+
+What is inheritance in Java, and how does it support code reuse?
+Describe the syntax for creating a subclass and inheriting from a superclass in Java.
+How do you prevent a class from being inherited in Java?
+Explain the difference between method overloading and method overriding.
+What are the access rules for inherited members in Java?
+Discuss the use of the super keyword in Java inheritance.
+What is the purpose of an abstract class in Java, and how do you create one?
+How does Java support single inheritance?
+Can a subclass inherit multiple constructors from its superclass?
+How do you call a parameterized constructor of the superclass from a subclass?
+Provide an example of using the instanceof operator with inheritance in Java.
+Discuss the diamond problem and its resolution in Java.
+How do you override a static method in Java? Is it recommended?
+What happens if a subclass tries to access a private member of its superclass?
+Give an example of a Java program demonstrating inheritance.
+
+Polymorphism:
+
+What is polymorphism in Java, and how is it achieved?
+Explain the difference between compile-time polymorphism and runtime polymorphism.
+What is method overloading, and how does it relate to polymorphism?
+Provide an example of method overloading in Java.
+How do you achieve dynamic polymorphism through method overriding?
+What is the @Override annotation used for in method overriding?
+Discuss the "covariant return type" feature in Java method overriding.
+Can you override a private method in a subclass? Why or why not?
+Explain the difference between upcasting and downcasting in polymorphism.
+What is a virtual method table (vtable) in Java, and how is it related to polymorphism?
+Provide an example of using polymorphism with abstract classes and interfaces in Java.
+How do you prevent a method from being overridden in Java?
+What is the role of the instanceof operator in achieving polymorphism?
+How do you achieve runtime polymorphism using method overriding?
+Give an example of a Java program demonstrating polymorphism.
