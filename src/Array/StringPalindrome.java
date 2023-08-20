@@ -7,7 +7,8 @@ public class StringPalindrome {
         int j= ch.length-1;
         int i=0;
         while(i<j){
-            if(ch[i] != ch[j]){
+            if(ch[i] != ch[j])
+            {
                 System.out.println("Not a palindrome");
             }else {
                 i++;
